@@ -1,0 +1,13 @@
+name: workshop
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - mlflow
+  - pip
+  - pip:
+    - azure-identity
+    - azure-ai-ml
+    - mltable
+    - azureml-mlflow
+    - azureml-dataprep[pandas]
